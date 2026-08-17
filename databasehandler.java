@@ -18,9 +18,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class databasehandler {
-    private static String url = "jdbc:mysql://localhost:3306/java_fx";
-    private static String username = "root";
-    private static String password = "Sl0pp0!2!2";
+    private static String url = "";
+    private static String username = "";
+    private static String password = "";
     private static Connection myConnection = null;
 
     public static void initset() {
